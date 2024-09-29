@@ -4,8 +4,10 @@
 class Calculator
 {
     public:
-        int Add (int, int);
+        int Add (double, double);
+        int Sub (double, double);  // Функції віднімання
         int Mul (double, double);
+        double Div (double, double);  // Функція ділення
 };
 
-#endif//CALCULATOR_H
+#endif //CALCULATOR_H
